@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
+@theme {
+  --color-black: #000000;
+  --color-strong-100: #1078FF;
+  --color-strong-50:--alpha(#1078FF / 50%);
+  --color-strong-25: --alpha(#1078FF / 25%);
+  --color-weak-100: #CCE7FF;
+  --color-weak-50: --alpha(#CCE7FF / 50%);
+  --color-weak-25: --alpha(#CCE7FF / 25%);
+  --color-white: #FFFFFF;
+}
+
 :root {
   color-scheme: light dark;
 }

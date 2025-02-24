@@ -11,9 +11,9 @@ export function searchBar(): string {
       <div class="flex justify-end row-start-1 col-start-1">
         cat
       </div>
-      <div class="p-2 w-[40vw] flex text-center bg-cyan-300">
-        <p class="mr-4">icon</p>
-        <input placeholder="search stuff here..."></input>
+      <div class="p-2 w-[40vw] flex text-center bg-weak-100 border-strong-100 border-5 rounded-full">
+        <p class="mr-4 ">icon</p>
+        <input class="text-strong-100" placeholder="search stuff here..."></input>
         <p class="ml-auto">icon</p>
       </div>
     </div>
