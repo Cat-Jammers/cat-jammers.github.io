@@ -14,7 +14,7 @@ export function searchBar(): string {
       <div class="p-2 w-[60vw] flex text-center justify-self-center bg-weak-100 border-strong-100 border-5 rounded-full">
         
         <img src="/search.png" alt="search-icon" class="w-auto h-auto pr-2 pl-2">
-        <input class="text-strong-100" placeholder="search stuff here..."></input>
+        <input class="text-strong-100 w-[50vw]" placeholder="search stuff here..."></input>
         <img src="/walkingCat.png" alt="walking-cat-icon" class="justify-end w-auto h-auto pr-2 pl-2">
       </div>
     </div>
