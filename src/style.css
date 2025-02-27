@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@font-face {
+  font-family: 'Yuruka';
+  src: url('./FOT-YurukaStd-UB.otf') format('truetype');
+}
 
 @theme {
   --color-black: #000000;
@@ -9,6 +13,7 @@
   --color-weak-50: --alpha(#CCE7FF / 50%);
   --color-weak-25: --alpha(#CCE7FF / 25%);
   --color-white: #FFFFFF;
+  --font-yuruka: "yuruka", sans-serif;
 }
 
 :root {
