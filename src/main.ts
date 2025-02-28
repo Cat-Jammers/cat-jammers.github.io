@@ -4,7 +4,6 @@ import { signInButton } from "./components/signInButton";
 import { signInScreen } from "./components/signInScreen";
 
 
-var signInScreenShowed = false
 
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
