@@ -3,8 +3,8 @@ import { searchBar } from "./components/searchBar";
 import { signInButton } from "./components/signInButton";
 import { signInScreen } from "./components/signInScreen";
 import { profile } from "./components/profile";
-import { searchBarResults } from "./components/searchBarResults";
-import { searchResult } from "./components/searchResult";
+// import { searchBarResults } from "./components/searchBarResults";
+// import { searchResult } from "./components/searchResult";
 
 
 // document.addEventListener("DOMContentLoaded", () => {
