@@ -24,8 +24,8 @@ export function signInScreen(): string {
             </div>
             <div class="flex justify-between py-10 mx-15">
               <img src="/apple.png" alt="apple-logo" class="w-auto h-auto object-none">
-              <img src="/slack.png" alt="apple-logo" class="w-auto h-auto object-none">
-              <img src="/google.png" alt="apple-logo" class="w-auto h-auto object-none">
+              <img src="/slack.png" alt="slack-logo" class="w-auto h-auto object-none">
+              <img src="/google.png" alt="google-logo" class="w-auto h-auto object-none">
             </div>
         </div>
       </div>
