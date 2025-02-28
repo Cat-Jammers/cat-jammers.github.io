@@ -14,7 +14,7 @@ export function signInScreen(): string {
               <input id="password" class="bg-weak-100 text-strong-100 text-[15px] font-yuruka rounded-full p-2 mx-10" type="text" placeholder="password"></input>
             </div>
             <div class="flex justify-center">
-              <button id="submitButton" type="submit" class="bg-weak-100 text-strong-100 text-[15px] font-yuruka rounded-full p-2 mx-10 mt-5">Submit</button>
+              <button id="submitButton" type="submit" class="bg-weak-100 text-strong-100 text-[15px] font-yuruka rounded-full p-2 mx-10 mt-5 cursor-hover">Submit</button>
             </div>
             <div id="loginMessage" class="flex justify-center text-red-500 mt-5"></div>
             <div class="flex justify-between items-center pt-10 pl-5 pr-5">

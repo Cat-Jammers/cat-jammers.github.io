@@ -5,7 +5,7 @@
 export function signInButton(): string {
     return `
       <div id="mainSignInButton" class="items-start justify-items-end">
-        <button id="signInButton" class="bg-weak-100 p-5 px-10 border-5 rounded-[20px] border-strong-100 border-dashed font-yuruka text-strong-100 text-[24px]">Sign In</button>
+        <button id="signInButton" class="bg-weak-100 p-5 px-10 border-5 rounded-[20px] border-strong-100 cursor-pointer border-dashed font-yuruka text-strong-100 text-[24px]">Sign In</button>
       </div>
     `;
   }
