@@ -5,7 +5,7 @@
 export function profile(): string {
     return `
       <div id="mainProfile" class="items-start justify-items-end">
-        <img src="/profile.png" alt="profile-icon" class="w-auto h-auto object-none">
+        <img src="/profile.svg" alt="profile-icon" class="w-auto h-auto object-none">
         
       </div>
     `;

@@ -6,7 +6,7 @@ export function searchResult(): string {
     return `
       <div id="mainSearchResult" class="flex flex-row pb-15">
         <div class="">
-          <img src="./profile.png" alt="favicon" class="h-[3vw] justify-end pr-2 pl-2">
+          <img src="./profile.svg" alt="favicon" class="h-[3vw] justify-end pr-2 pl-2">
         </div>
         <div class="grid">
             <div class="grid col-start-1 row-start-1 p-5">
