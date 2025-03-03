@@ -11,7 +11,7 @@ export function signInScreen(): string {
               <input id="username" class="bg-weak-100 text-strong-100 text-[15px] font-yuruka rounded-full p-2 m-5" type="text" placeholder="email/username"></input>
             </div>
             <div class="flex justify-center">
-              <input id="password" class="bg-weak-100 text-strong-100 text-[15px] font-yuruka rounded-full p-2 mx-10" type="text" placeholder="password"></input>
+              <input id="password" class="bg-weak-100 text-strong-100 text-[15px] font-yuruka rounded-full p-2 mx-10" type="password" placeholder="password"></input>
             </div>
             <div class="flex justify-center">
               <button id="submitButton" type="submit" class="bg-weak-100 text-strong-100 text-[15px] font-yuruka rounded-full p-2 mx-10 mt-5 cursor-hover">Submit</button>
@@ -31,7 +31,3 @@ export function signInScreen(): string {
       </div>
     `;
   }
-
-//   <div class="bg-strong-100 py-1 m-10"></div>
-//   <p>or</p>
-//   <div></div>
